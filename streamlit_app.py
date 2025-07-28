@@ -134,7 +134,7 @@ def main():
     st.markdown("---")
     st.header(" Analysis")
     
-    if st.button("🚀 Analyze Resume Match", type="primary", use_container_width=True):
+    if st.button(" Analyze Resume Match", type="primary", use_container_width=True):
         if not resume_text:
             st.error(" Please upload a resume first!")
             return
